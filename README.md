@@ -38,6 +38,7 @@ return "".join(set(s))
 ```
 data = {}
 ```
+
 #### - Setelah dictionary dibuat, kita akan menampilkan data mahasiswa dengan menggunakan fungsi
 #### Fungsi untuk Menambahkan Data
 ```
@@ -51,10 +52,11 @@ def tambah(*t):
     akhir = tugas*30/100 + uts*35/100 + uas*35/100
     data[nama] = nim, uts, uas, tugas, akhir
     return
-    ```
-    #### Fungsi untuk Menampilkan Data
-    ```
-    def tampilkan(*l):
+```
+    
+#### Fungsi untuk Menampilkan Data
+```
+def tampilkan(*l):
     if data.items():
         print("="*78)
         print("|                               Daftar Mahasiswa                             |")
@@ -76,21 +78,23 @@ def tambah(*t):
         print("|                                TIDAK ADA DATA                              |")
         print("="*78)
     return
-    ```
-    #### Fungsi untuk menghapus data berdasarkan Nama
-    ```
-    def hapus(*nama):
+```
+
+#### Fungsi untuk menghapus data berdasarkan Nama
+```
+def hapus(*nama):
     print("Hapus Data")
     nama = input("Masukkan Nama  : ")
     if nama in data.keys():
         del data[nama]
     else:
         print("Nama {0} Tidak Ditemukan".format(nama))
-    return
-    ```
-    #### Fungsi untuk mengubah data berdasarkan Nama
-    ```
-    def ubah(*nama):
+    return    
+```
+
+#### Fungsi untuk mengubah data berdasarkan Nama
+```
+def ubah(*nama):
     print("Ubah Data")
     nama = input("Masukkan Nama  : ")
     if nama in data.keys():
@@ -103,7 +107,8 @@ def tambah(*t):
     else:
         print("Nama {0} tidak ditemukan".format(nama))
     return
-    ```
-    #### Tampilan Program saat di jalankan
+```
+
+#### Tampilan Program saat di jalankan
     
-    ![gambar1](gambar/prak7_3.png)
+![gambar1](gambar/prak7_3.png)
