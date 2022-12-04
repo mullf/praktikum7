@@ -17,3 +17,4 @@ return sum(args)/len(args)
 def d(s):
 return "".join(set(s))
 ```
+
