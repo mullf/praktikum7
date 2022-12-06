@@ -18,9 +18,9 @@ def d(s):
 return "".join(set(s))
 ```
 
-![gambar1](gambar/prak7_1.png)
+![gambar1](Gambar/prak7_1.png)
 
-![gambar1](gambar/prak7_2.png)
+![gambar1](Gambar/prak7_2.png)
 
 ## Tugas Praktikum
 ### Buat program sederhana dengan mengaplikasikan penggunaan fungsi yang akan menampilkan daftar nilai mahasiswa, dengan ketentuan :
@@ -111,4 +111,4 @@ def ubah(*nama):
 
 #### Tampilan Program saat di jalankan
     
-![gambar1](gambar/prak7_3.png)
+![gambar1](Gambar/prak7_3.png)
